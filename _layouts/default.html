@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="/assets/css/styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/theme-toggles@4.10.1/css/inner-moon.min.css">
+    <!-- favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicons/favicon-16x16.png">
+    <link rel="manifest" href="/assets/favicons/site.webmanifest">
+    {% feed_meta %}
+    {% seo %}
+  </head>
+  <body id="grid-body-container">
+    <header>
+      {% include navigation.html %}
+    </header>
+
+    <div id="navbar_spacer"></div>
+    
+    <main class="content-container">
+      {{ content }}
+    </main>
+    
+    <footer id="general_footer" class="other-bg-color">
+      <p>© {{ site.time | date: "%Y" }} - La Ruche, Lourdes</p>
+      <p>Fait avec <span id="heart"><i class="nf nf-fa-heart"></i></span> à Lyon, par <a href="https://onyr.net/">0nyr</a></p>
+      <p><i class="nf nf-md-cloud_circle"></i> <a href="https://www.lourdes-infotourisme.com/offres/accueil-jacquaire-la-ruche-lourdes-fr-3152683/">Page Office de Tourisme</a></p>
+      <p><i class="nf nf-cod-github"></i> <a href="https://github.com/0nyr/la-ruche-lourdes">GitHub du site</a></p>
+      <p><i class="nf nf-fa-map_location_dot"></i> <a href="https://maps.app.goo.gl/sNfT1yZpJPRfuadv6">Voir sur Google Maps</a></p>
+    </footer>
+    
+  </body>
+
+  <!-- Scripts -->
+  <script src="/assets/js/theme-switch.js"></script>
+  <script src="/assets/js/animations.js"></script>
+</html>
