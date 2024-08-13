@@ -22,7 +22,7 @@ title: La Ruche, Lourdes
 email: onyr.maintainer@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Le site officiel et le blog de la Ruche, Lourdes. Idéalement placé face au Sanctuaire de Lourdes, l'accueil Jacquaire "La Ruche" est un lieu spécifique pour les pèlerins sur le chemin de St-Jacques de Compostelle.
-baseurl: "" # the subpath of your site, e.g. /blog la_ruche_lourdes
+baseurl: "/la-ruche-lourdes" # the subpath of your site, e.g. /blog
 url: "https://0nyr.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 highlighter: rouge
 

@@ -7,7 +7,7 @@ permalink: /about/
 La ruche est un lien d'accueil et de partage pour les pélerins de passage dans Lourdes.
 
 <video autoplay muted loop id="video_grotte_lourdes">
-  <source src="/assets/images/photos/2023-03-16 13.20.33.mp4" type="video/mp4">
+  <source src="{{ site.baseurl }}/assets/images/photos/2023-03-16 13.20.33.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
@@ -16,7 +16,7 @@ Vue de la Grotte de Notre Dame de Lourdes, accessible depuis La Ruche en quelque
 ### Histoire du Lieu
 
 <div style="text-align: justify;">
-  <img src="/assets/images/photos/2023-03-17 08.05.22.jpg" alt="Jean-Louis Doux, depuis le balcon de La Ruche, posant avec le sanctuaire de Notre-Dame de Lourde en arrière-plan." style="float: left; margin-right: 20px; margin-bottom: 10px; width: 40%;">
+  <img src="{{ site.baseurl }}/assets/images/photos/2023-03-17 08.05.22.jpg" alt="Jean-Louis Doux, depuis le balcon de La Ruche, posant avec le sanctuaire de Notre-Dame de Lourde en arrière-plan." style="float: left; margin-right: 20px; margin-bottom: 10px; width: 40%;">
 
   <p style="margin-top: 0px;">Jean-Louis Doux est un informaticien de l'époque de France Télécom. Suite à des événements personnels, il décide de partir sur les chemins pour accomplir son pèlerinage vers Compostelle. C'était en 1999, après la tempête qui secoua alors la France.</p>
 

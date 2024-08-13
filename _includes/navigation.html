@@ -9,7 +9,7 @@
     {% for item in site.data.navigation %}
       <div class="nav-element">
         <a 
-          href="{{ item.link }}" 
+          href="{{ item.link | absolute_url }}" 
           {% if page.url == item.link %}
             class="a-nav nav_button current"
           {% else %}
