@@ -1,4 +1,7 @@
 ### TODO
++ [ ] Compress images for faster page loading.
++ [ ] Add interactive map display to the front page with the address of La Ruche.
++ [ ] Add image overlay descriptions.
 
 ## Logs
 
